@@ -248,11 +248,13 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
+  padding-left: 2em;
+  padding-right: 2em
   border: 1px solid $lightGray;
 }
 
 .posts > .post:last-child {
-  padding-bottom: 1em;
+  padding-bottom: 3em;
 }
 
 .post {
