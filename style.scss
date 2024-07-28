@@ -275,19 +275,29 @@ nav {
 	position: absolute;
 }
 
+#wrapper {
+  min-height:100%;
+  position:relative;
+}
+
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
-  position: relative;
-  bottom: 0;
+
+  width:100%;
+  height:90px;
+  position:absolute;
+  bottom:0;
+  left:0;
 }
 
 footer {
   padding: 20px 0;
   text-align: center;
 }
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
