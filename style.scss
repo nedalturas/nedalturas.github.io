@@ -15,12 +15,11 @@
 
 html {
   font-size: 100%;
- 
   height:100%;
 }
 
 body {
-	background: $white;
+  background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 
@@ -247,6 +246,7 @@ nav {
 //
 
 .posts > .post {
+  background-color: $white;
   margin-bottom: 2em;	
   padding-bottom: 2em;
   padding-left: 2em;
